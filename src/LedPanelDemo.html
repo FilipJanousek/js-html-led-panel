@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="S@bur0_Tosh1r0">
+    <title>LedPanelDemo</title>
+    
+    <style>
+        #myLedPanel table tr td{
+            width: 1em;
+            height: 0.5em;
+        }
+
+        @media only screen and (max-width: 1400px) {
+            #myLedPanel table tr td{
+                width: 1em;
+                height: 0.2em;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            #myLedPanel table tr td{
+                width: 1em;
+                height: 0.1em;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            #myLedPanel table tr td{
+                height: 0.05em;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="myLedPanel"></div>
+    <script src="charset.js"></script>
+    <script src="LedPanel.js"></script>
+    <script>
+        const ledPanelConfig = {
+            speed: 150, // in milliseconds
+            message: ' LOREM IPSUM LOREM IPSUM LOREM IPSUM ', // text for led panel
+            cols: 200, // number of cols in table
+            rows: 7, // number of rows in table
+            colorBackground: '#FFF', // color of background
+            colorAlphabet: '#62ABD9', // color of alphabet
+            idContainer: 'myLedPanel' 
+        }
+
+        const ledPanel = new LedPanel(ledPanelConfig, charset);
+        ledPanel.run();
+    </script>
+</body>
+</html>
