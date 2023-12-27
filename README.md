@@ -8,8 +8,6 @@ Feel free to use my code and modify it as you see fit if you want!
 
 ---
 
-|||
-|-|-|
 | Author: | Filip Janoušek |
 | Alias: | Saburo Toshiro |
 | Time: | ~ 4 hours |
