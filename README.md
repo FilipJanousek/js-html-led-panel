@@ -7,7 +7,8 @@ I created this project to try to emulate a simple led panel with only capital le
 Feel free to use my code and modify it as you see fit if you want!
 
 ---
-
+|||
+|-|-|
 | Author: | Filip Janoušek |
 | Alias: | Saburo Toshiro |
 | Time: | ~ 4 hours |
